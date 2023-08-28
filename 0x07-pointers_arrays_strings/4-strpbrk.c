@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * reverse_array - prints reverse array.
- * @a: array to be compared.
- * @n: size of array.
- * Return: reversed array.
+ * _strpbrk - Entry point
+ * @s: input
+ * @accept: input
+ * Return: Always 0 (Success)
  */
 char *_strpbrk(char *s, char *accept)
 {

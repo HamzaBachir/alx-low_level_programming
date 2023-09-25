@@ -32,7 +32,7 @@ return (new);
 for (i = 0; temp && i < idx; i++)
 {
 if (i == idx - 1)
-}
+{
 new->next = temp->next;
 temp->next = new;
 return (new);
@@ -43,3 +43,4 @@ temp = temp->next;
 
 return (NULL);
 }
+
